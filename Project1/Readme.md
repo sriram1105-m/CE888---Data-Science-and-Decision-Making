@@ -30,4 +30,5 @@ https://essexuniversity-my.sharepoint.com/personal/hr17576_essex_ac_uk/_layouts/
 ```
 The file with the name 'Wildfire_detection_using_ResNet_architecture.ipynb' is the file created for CE888 Assignment 1.
 The file with the name 'Wildfire_VGG19_Data_Preprocessing.ipynb' is a part of the file for Assignment 2. This file shows only the data preprocessing part of the project.
+The file with the name 'Wildfire detection using VGG19.py' is the main file that contains the full code for Assignment 2.
 ```
