@@ -8,13 +8,13 @@ print("Test 2")
 print(os.getcwd())
 path = os.getcwd()
 
-with open('Models/logistic_model.pkl', 'rb') as f:
+with open('Models/log_reg_classifier.sav', 'rb') as f:
     logistic = pickle.load(f)
 
-with open('Models/RF_model.pkl', 'rb') as f:
+with open('Models/rfc_classifier.sav', 'rb') as f:
     randomforest = pickle.load(f)
 
-with open('Models/svm_clf_model.pkl', 'rb') as f:
+with open('Models/support_vector_classifier.sav', 'rb') as f:
     svm_model = pickle.load(f)
 
 
