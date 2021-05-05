@@ -18,8 +18,8 @@ with open('Models/support_vector_classifier.sav', 'rb') as f:
     svm_model = pickle.load(f)
 
 
-def get_predictions(price, Tax, Driver_Age, Licence_Length_Years, req_model):
-    mylist = [Driver_Age, Tax, price, Licence_Length_Years]
+def get_predictions(age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal, target, req_model):
+    mylist = [age, sex, cp]
     mylist = [float(i) for i in mylist]
     vals = [mylist]
 
